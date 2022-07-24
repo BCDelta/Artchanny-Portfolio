@@ -7,7 +7,7 @@ a.pageTabs:link, a.pageTabs:visited {
         display: inline-block;
 }
 a.active:link, a.active:visited {
-        color: rgb(36, 36, 36);
+        color: rgba(255, 255, 255, 0.9);
         padding: 10px;
         text-align: center;
         text-decoration: none;
@@ -15,28 +15,105 @@ a.active:link, a.active:visited {
 }
 
 a.pageTabs:hover{
-        background-color: rgb(73, 150, 92);
+        background-color: rgba(73, 113, 150, 0.9);
         color: rgb(255, 255, 255);
 }
 
 a.active {
-        background-color: rgb(73, 150, 92);
+        background-color: rgb(73, 113, 150);
         color: rgb(255, 255, 255);
 }
-
+a.links:link, a.links:visited {
+        border: 3px solid white;
+        color: rgb(255, 255, 255);
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+}
+a.links:hover {
+        background-color: rgba(73, 113, 150, 0.9);
+        color: rgb(255, 255, 255);
+}
 li {
         display: inline;
         border-right: 1px solid #bbb;
-  }
-  
+}
+#spacer {
+        margin: 20px;
+}
 #navPanel {
     
-        background-color: rgb(14, 107, 158);
+        background-color: rgba(14, 107, 158, .5);
         text-transform: uppercase;
         letter-spacing: 5px;
         padding: 20px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
+}
+.introBlock {
+        background: rgb(36, 36, 36);
+        padding: 50px;
+        color: white;
+        font-family:'Courier New';
+        font-size: 20px;
+}
+#linksTitle {
+        color: white;
+        font-family: 'Lucida Sans Unicode';
+        letter-spacing: 2px;
+        font-size: 40px;
+        
+}
+h2 {
+        color: white;
+        font-family: 'Lucida Sans Unicode';
+        letter-spacing: 2px;
+        font-size: 30px;
+}
+.instagram {
+        background: rgba(117, 18, 92, 0.7);
+        color: white;
+        padding: 50px; 
+        height: 300px;  
+        box-shadow: 10px 10px rgb(36, 36, 36);
+        font-family:'Courier New';
+        letter-spacing: 1px;
+        font-size: 20px;
+}
+
+.patreon {
+        background: rgba(209, 99, 79, 0.8);
+        color: white;
+        padding: 50px; 
+        height: 200px;  
+        box-shadow: 10px 10px rgb(36, 36, 36);
+        font-family:'Courier New';
+        letter-spacing: 1px;
+        font-size: 20px;
+        text-align: left;
+}
+.youtube {
+        background: rgba(37, 37, 37, 0.8);
+        color: white;
+        padding: 50px; 
+        height: 300px;  
+        box-shadow: 10px 10px rgb(36, 36, 36);
+        font-family:'Courier New';
+        letter-spacing: 1px;
+        font-size: 20px;
+}
+
+.fiverr {
+        background: rgba(49, 104, 70, 0.8);
+        color: white;
+        padding: 50px; 
+        height: 300px;  
+        box-shadow: 10px 10px rgb(36, 36, 36);
+        font-family:'Courier New';
+        letter-spacing: 1px;
+        font-size: 20px;
+
 }
 body{
         background: rgb(199, 199, 199);
