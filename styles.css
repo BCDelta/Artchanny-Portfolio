@@ -230,19 +230,9 @@ body{
         display: flex;
         justify-content: center;
 }
-.aboutTable {
-        float: left;
+.footer {
+        width: 70%;
         text-align: center;
-}
-.linksTable {
-        float: left;
-        text-align: center;
-}
-.galleryTable {
-        float: left;
-        text-align: center;
-}
-.discordTable {
-        float: left;
-        text-align: center;
+        font-family: 'Segoe UI';
+        letter-spacing: 1px;
 }
