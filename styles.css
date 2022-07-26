@@ -69,8 +69,8 @@ h2 {
         letter-spacing: 2px;
         font-size: 30px;
 }
-.instagram {
-        background: rgba(143, 24, 113, 0.7);
+#instagram {
+        background: rgba(143, 24, 113, 0.6);
         color: white;
         padding: 50px; 
         height: 300px;  
@@ -79,7 +79,7 @@ h2 {
         letter-spacing: 1px;
         font-size: 20px;
 }
-.patreon {
+#patreon {
         background: rgba(209, 99, 79, 0.8);
         color: white;
         padding: 50px; 
@@ -91,7 +91,7 @@ h2 {
         text-align: left;
         height: 300px;
 }
-.youtube {
+#youtube {
         background: rgba(37, 37, 37, 0.8);
         color: white;
         padding: 50px; 
@@ -105,7 +105,7 @@ h2 {
         float: right;
         margin: 20px;
 }
-.fiverr {
+#fiverr {
         background: rgba(49, 104, 70, 0.8);
         color: white;
         padding: 50px; 
@@ -163,17 +163,13 @@ h2 {
 /*************** FAQ Page *************************/
 
 .faqHeader {
-        background: rgb(231, 73, 62);
+        background: rgba(231, 73, 62, 0.9);
         padding: 20px;
         text-align: center;
         letter-spacing: 2px;
         font-size: 25px;
         font-family: 'Times New Roman';
         color: white;
-}
-hr {
-        padding: 5px;
-        background: rgb(231, 73, 62);
 }
 #faq-background {
         background: rgba(114, 114, 114, 0.8);
@@ -184,7 +180,6 @@ hr {
         margin: auto;
         width: 1000px;
         height: 2600px;
-        border: 5px solid rgb(231, 73, 62);
 }
 .question {
         float: left;
@@ -213,8 +208,41 @@ hr {
 }
 /*************** FAQ Page *************************/
 
+/*************** Gallery Page *************************/
+.showcase {
+        background: linear-gradient(to right, rgb(19, 12, 24), rgba(32, 18, 112, 0.8));
+        border: 2px solid rgb(241, 241, 241);
+        border-radius: 15px 15px;
+        padding: 20px;
+        height: 500px;
+}
+
+/*************** Gallery Page *************************/
 body{
         background: rgb(241, 241, 241);
         background-image: url('');
         background-repeat: no-repeat;
+}
+
+.footerBlock {
+        background: rgb(78, 78, 78);
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+}
+.aboutTable {
+        float: left;
+        text-align: center;
+}
+.linksTable {
+        float: left;
+        text-align: center;
+}
+.galleryTable {
+        float: left;
+        text-align: center;
+}
+.discordTable {
+        float: left;
+        text-align: center;
 }
