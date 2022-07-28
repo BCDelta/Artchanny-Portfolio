@@ -34,6 +34,20 @@ a.links:hover {
         background: rgba(73, 113, 150, 0.9);
         color: rgb(255, 255, 255);
 }
+a:link {
+        color: rgb(120, 129, 136);
+        color: white;
+        padding: 5px;
+}
+a:visited {
+        color: rgb(120, 129, 136);
+}
+a:hover {
+        background: rgb(27, 43, 54);
+        color: white;
+        padding: 5px;
+}
+
 .menu {
         display: inline;
         border-right: 2px solid rgb(77, 77, 77);
@@ -57,7 +71,7 @@ a.links:hover {
         font-family:'Courier New';
         font-size: 25px;
 }
-#linksTitle {
+.pageTitle {
         color: white;
         font-family: 'Lucida Sans Unicode';
         letter-spacing: 2px;
@@ -136,7 +150,7 @@ h2 {
         /*background: linear-gradient(to right, rgb(53,66,78), rgba(53,66,78,0.5));*/
         box-shadow: 10px 10px rgb(36, 36, 36);
         margin: 20px;
-        height: auto;
+        height: 700px;
 }
 #profile {
         float: left;
@@ -210,12 +224,167 @@ h2 {
 
 /*************** Gallery Page *************************/
 .showcase {
-        background: linear-gradient(to right, rgb(19, 12, 24), rgba(32, 18, 112, 0.8));
-        border: 2px solid rgb(241, 241, 241);
-        border-radius: 15px 15px;
+        background: rgb(19, 12, 24);
         padding: 20px;
-        height: 500px;
+        height: auto;
+        color: white;
 }
+#gallery {
+        color: white;
+        font-family: 'Lucida Sans Unicode';
+        background-color: rgba(209, 99, 79, 0.8);
+        width: 500px;
+        position: absolute;
+        top: 100px;
+        left: 16px;
+        font-size: 90px;
+        padding: 50px;
+}
+#gallary-slogan {
+        color: white;
+        font-family: 'Lucida Sans Unicode';
+        background-color: rgba(49, 49, 49, 0.4);
+        width: auto;
+        position: absolute;
+        top: 470px;
+        right: 16px;
+        font-size: 20px;
+        letter-spacing: 4px;
+        padding: 20px;
+}
+.gallery-image {
+        height: 500px;
+        background-image: url("Banners/sunsetHome.png");
+        filter: blur(5px);
+}
+#sci-fi {
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border: 2px solid;
+        padding: 20px;
+        font-size: 40px;
+        letter-spacing: 10px;
+        font-family:'Times New Roman';
+        font-variant: small-caps;
+        width:500px; 
+        margin: 0 auto;
+        text-align: center;
+}
+#nature {
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border: 2px solid;
+        padding: 20px;
+        font-size: 40px;
+        letter-spacing: 10px;
+        font-family:'Times New Roman';
+        font-variant: small-caps;
+        width:500px; 
+        margin: 0 auto;
+        text-align: center;
+}
+#urban {
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border: 2px solid;
+        padding: 20px;
+        font-size: 40px;
+        letter-spacing: 10px;
+        font-family:'Times New Roman';
+        font-variant: small-caps;
+        width:500px; 
+        margin: 0 auto;
+        text-align: center;
+}
+#rooms {
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border: 2px solid;
+        padding: 20px;
+        font-size: 40px;
+        letter-spacing: 10px;
+        font-family:'Times New Roman';
+        font-variant: small-caps;
+        width:500px; 
+        margin: 0 auto;
+        text-align: center;
+}
+.artwork {
+        height: 333px;
+        padding: 30px;
+}
+.picture-set {
+        width: 800px;
+        margin:0 auto;
+}
+/*************** Index Page *************************/
+#portfolio-block {
+        text-align: center;
+        border: 5px solid white;
+        padding: 20px;
+        width: 700px;
+        background: rgba(80, 80, 80, 0.5);
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        z-index: 1;
+        transform: translate(-50%, -50%);
+}
+#name {
+        font-size: 80px;
+        color: white;
+        font-family: 'Lucida Sans Unicode';
+        font-variant: small-caps;
+        letter-spacing: 2px;
+}
+#sub-text {
+        font-size: 25px;
+        color: white;
+        font-family: 'Lucida Sans Unicode';
+        letter-spacing: 2px;
+}
+#wallpaper {
+        width: 100%;
+        filter: blur(2px);
+}
+#description {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 2px;
+        padding: 50px;
+        background: rgba(80, 80, 80, 0.5);
+        position: absolute;
+        width: 100%;
+        top: 100%;
+        left: 50%;
+        z-index: 1;
+        transform: translate(-50%, -50%);
+}
+#projects-panel {
+        width: 75%;
+        height: 420px;
+        padding: 50px;
+        margin: 0 auto;
+        background: rgb(209, 209, 209);
+        color: black;
+        font-family: 'Courier New';
+        letter-spacing: 3px;
+}
+.projects {
+        border: 2px solid black;
+        text-align: center;
+        width: 100%;
+        margin: 2px;
+        padding: 25px;
+        border-collapse: collapse;
+        font-size: 35px;
+}
+
+.project-rows:nth-child(odd) {
+        background-color: #646464;
+      }
+/*************** Index Page *************************/
 
 /*************** Gallery Page *************************/
 body{
@@ -223,7 +392,6 @@ body{
         background-image: url('');
         background-repeat: no-repeat;
 }
-
 .footerBlock {
         background: rgb(78, 78, 78);
         padding: 50px;
@@ -231,8 +399,17 @@ body{
         justify-content: center;
 }
 .footer {
-        width: 70%;
+        color: rgb(196, 196, 196);
+        font-weight: bold;
+        width: 50%;
         text-align: center;
         font-family: 'Segoe UI';
         letter-spacing: 1px;
+        
 }
+
+pre {
+        position: relative;
+        left: 2.5%;
+}
+
