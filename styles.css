@@ -1,0 +1,389 @@
+
+a.pageTabs:link, a.pageTabs:visited {
+        color: rgb(36, 36, 36);
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+}
+a.active:link, a.active:visited {
+        color: rgba(255, 255, 255, 0.9);
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+}
+a.pageTabs:hover{
+        background: rgba(73, 113, 150, 0.9);
+        color: rgb(255, 255, 255);
+}
+
+a.active {
+        background: rgb(73, 113, 150);
+        color: rgb(255, 255, 255);
+}
+a.links:link, a.links:visited {
+        border: 3px solid white;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+}
+a.links:hover {
+        background: rgba(73, 113, 150, 0.9);
+        color: rgb(255, 255, 255);
+}
+a:link {
+        color: rgb(120, 129, 136);
+        color: white;
+        padding: 5px;
+}
+a:visited {
+        color: rgb(120, 129, 136);
+}
+a:hover {
+        background: rgb(27, 43, 54);
+        color: white;
+        padding: 5px;
+}
+
+.menu {
+        display: inline;
+        border-right: 2px solid rgb(77, 77, 77);
+}
+.spacer {
+        margin: 20px;
+}
+#navPanel {
+        background: rgba(14, 107, 158, .5);
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        padding: 20px;
+        font-family: 'Helvetica';
+        font-weight: bold;
+}
+/*************** Links Page *************************/
+.introBlock {
+        background: rgb(36, 36, 36);
+        height: auto;
+        padding: 50px;
+        color: white;
+        font-family:'Courier New';
+        font-size: 25px;
+}
+.pageTitle {
+        color: white;
+        font-family: 'Lucida Sans Unicode';
+        letter-spacing: 2px;
+        font-size: 70px;       
+}
+h2 {
+        color: white;
+        font-family: 'Lucida Sans Unicode';
+        letter-spacing: 2px;
+        font-size: 30px;
+}
+#instagram {
+        background: rgba(143, 24, 113, 0.6);
+        color: white;
+        padding: 50px; 
+        height: auto; 
+        box-shadow: 10px 10px rgb(36, 36, 36);
+        font-family: 'Courier New';
+        letter-spacing: 1px;
+        font-size: 20px;
+}
+#patreon {
+        background: rgba(209, 99, 79, 0.8);
+        color: white;
+        padding: 50px; 
+        height: 200px;  
+        box-shadow: 10px 10px rgb(36, 36, 36);
+        font-family: 'Courier New';
+        letter-spacing: 1px;
+        font-size: 20px;
+        text-align: left;
+        height: auto;
+}
+#youtube {
+        background: rgba(37, 37, 37, 0.8);
+        color: white;
+        padding: 50px; 
+        height: auto;  
+        box-shadow: 10px 10px rgb(36, 36, 36);
+        font-family: 'Courier New';
+        letter-spacing: 1px;
+        font-size: 20px;
+}
+.logos {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: right;
+}
+#fiverr {
+        background: rgba(49, 104, 70, 0.8);
+        color: white;
+        padding: 50px; 
+        height: auto;  
+        box-shadow: 10px 10px rgb(36, 36, 36);
+        font-family: 'Courier New';
+        letter-spacing: 1px;
+        font-size: 20px;
+
+}
+/*************** Links Page *************************/
+
+/*************** About Page *************************/
+#about {
+        background: rgba(80, 80, 80, 0.9);
+        padding: 40px;
+        margin: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 25px;
+        font-family: 'Times New Roman';
+        color: white;
+        border: 5px solid rgb(255, 255, 255);
+
+}
+#aboutBlock {
+        background: rgba(53, 66, 78, 0.9);
+        /*background: linear-gradient(to right, rgb(53,66,78), rgba(53,66,78,0.5));*/
+        box-shadow: 10px 10px rgb(36, 36, 36);
+        margin: 20px;
+        height: auto;
+}
+#profile-pic {
+        max-width: 100%;
+        height: auto;
+}
+#profile {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        width:50%;
+        height: auto;
+        background: rgb(36, 36, 36);
+        letter-spacing: 5px;
+        font-family: 'Franklin Gothic Medium';
+        border: 5px solid rgb(255, 255, 255);
+        border-radius: 10px;
+        color: white;
+
+}
+.description {
+        padding: 25px;
+        color: white;
+        font-family: 'Courier New';
+        font-size: 22px;
+}
+/*************** About Page *************************/
+
+/*************** FAQ Page *************************/
+
+.faqHeader {
+        background: rgba(231, 73, 62, 0.9);
+        padding: 20px;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 25px;
+        font-family: 'Times New Roman';
+        color: white;
+}
+#faq-background {
+        background: rgba(114, 114, 114, 0.8);
+}
+.faqBlock {
+        background: rgb(255, 255, 255);
+        padding: 50px;
+        margin: auto;
+        width: 1000px;
+        height: 2600px;
+}
+.question {
+        float: left;
+        border: 5px solid rgb(224, 224, 224);
+        background-color: rgb(224, 224, 224);
+        box-shadow: 10px 10px rgba(0, 0, 0, 0.5);
+        border-radius:  30px 30px 30px 5px;
+        margin: 20px;
+        width: 500px;
+        padding: 20px;
+        font-size: 25px;
+        font-family: 'Helvetica';
+}
+.answer {
+        float: right;
+        border: 5px solid rgb(125, 206, 88);
+        background-color: rgb(125, 206, 88);
+        box-shadow: 10px 10px rgba(8, 70, 6, 0.7);
+        border-radius:  30px 30px 5px 30px;
+        width: 720px;
+        margin: 20px;
+        padding: 20px;
+        font-size: 25px;
+        text-align: left;
+        font-family: 'Helvetica';
+}
+/*************** FAQ Page *************************/
+
+/*************** Gallery Page *************************/
+.showcase {
+        background: rgb(19, 12, 24);
+        padding: 20px;
+        height: auto;
+        color: white;
+}
+#gallery {
+        color: white;
+        font-family: 'Lucida Sans Unicode';
+        background-color: rgba(209, 99, 79, 0.8);
+        width: 40%;
+        height: auto;
+        font-size: auto;
+        padding: 50px;
+}
+#gallary-slogan {
+        color: white;
+        font-family: 'Lucida Sans Unicode';
+        background-color: rgba(49, 49, 49, 0.4);
+        width: auto;
+        padding: 40px;
+        letter-spacing: 4px;
+        font-size: auto;
+        text-align: right;
+        margin-top: 120px;
+}
+.gallery-image {
+        background-repeat: no-repeat;
+        background-size: cover; 
+        height: 420px;
+        background-image: url("Banners/sunsetHome.png");
+}
+.subjects {
+        color: white;
+        background: rgba(0, 0, 0, 0.5);
+        border: 2px solid;
+        padding: 20px;
+        font-size: 40px;
+        text-align: center;
+        letter-spacing: 10px;
+        font-family:'Times New Roman';
+        font-variant: small-caps;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+}
+.artwork {
+        height: 333px;
+        padding: 30px;
+}
+.picture-set {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align:center;
+        
+}
+.artwork:hover {
+        -webkit-transform:scale(1.5); 
+        transform:scale(1.5);
+}
+/*************** Index Page *************************/
+#portfolio-block {
+        text-align: center;
+        border: 5px solid white;
+        margin: auto;
+        height: auto;
+        width: 60%;
+        padding: 10px;
+        background: rgba(80, 80, 80, 0.5);  
+}
+#name {
+        font-size: 80px;
+        color: white;
+        font-family: 'Lucida Sans Unicode';
+        font-variant: small-caps;
+        letter-spacing: 2px;
+        margin: auto;
+        padding: 10px;   
+}
+#sub-text {
+        font-size: auto;
+        height: auto;
+        color: white;
+        font-family: 'Lucida Sans Unicode';
+        letter-spacing: 2px;
+}
+#wallpaper {
+        background-image: url('Banners/Ancient_Island.png');
+        background-repeat: no-repeat;
+        background-size: cover; 
+}
+#description {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        letter-spacing: 2px;
+        padding: 50px;
+        background: rgba(80, 80, 80, 0.5);
+        margin-top: 250px;
+        height: auto;
+}
+#projects-panel {
+        height: auto;
+        padding: 50px;
+        margin: 0 auto;
+        background: rgb(202, 202, 202);
+        color: black;
+        font-family: 'Courier New';
+        letter-spacing: 3px;
+}
+.projects {
+        font-size: auto;
+        margin-left: auto; 
+        margin-right: auto;
+        width: 100%;
+        padding: 25px;
+        table-layout: fixed;
+        border: 2px solid black;
+        text-align: center;
+        border-collapse: collapse;
+        overflow-x:auto;
+}
+
+.project-rows:nth-child(odd) {
+        background-color: #646464;
+      }
+/*************** Index Page *************************/
+
+/*************** Gallery Page *************************/
+body{
+        background: rgb(241, 241, 241);
+        background-image: url('');
+        background-repeat: no-repeat;
+}
+.footerBlock {
+        background: rgb(78, 78, 78);
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+}
+.footer {
+        color: rgb(196, 196, 196);
+        font-weight: bold;
+        width: 50%;
+        text-align: center;
+        font-family: 'Segoe UI';
+        letter-spacing: 1px;
+        
+}
+
+pre {
+        position: relative;
+        left: 2.5%;
+}
+
