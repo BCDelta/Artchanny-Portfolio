@@ -153,17 +153,21 @@ h2 {
         /*background: linear-gradient(to right, rgb(53,66,78), rgba(53,66,78,0.5));*/
         box-shadow: 10px 10px rgb(36, 36, 36);
         margin: 20px;
-        height: 700px;
+        height: auto;
+}
+#profile-pic {
+        max-width: 100%;
+        height: auto;
 }
 #profile {
-        float: left;
-        padding: 30px;
-        width: 30%;
-        background: rgb(36, 36, 36);
+        display: block;
+        margin: 0 auto;
         text-align: center;
+        width:50%;
+        height: auto;
+        background: rgb(36, 36, 36);
         letter-spacing: 5px;
         font-family: 'Franklin Gothic Medium';
-        margin: 50px;
         border: 5px solid rgb(255, 255, 255);
         border-radius: 10px;
         color: white;
@@ -282,6 +286,11 @@ h2 {
         margin-left: auto;
         margin-right: auto;
         text-align:center;
+        
+}
+.artwork:hover {
+        -webkit-transform:scale(1.5); 
+        transform:scale(1.5);
 }
 /*************** Index Page *************************/
 #portfolio-block {
@@ -334,7 +343,7 @@ h2 {
         letter-spacing: 3px;
 }
 .projects {
-        font-size: 1.5vw;
+        font-size: auto;
         margin-left: auto; 
         margin-right: auto;
         width: 100%;
