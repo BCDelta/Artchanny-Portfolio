@@ -77,7 +77,7 @@ a:hover {
         color: white;
         font-family: 'Lucida Sans Unicode';
         letter-spacing: 2px;
-        font-size: 7vw;       
+        font-size: 5vw;       
 }
 h2 {
         color: white;
@@ -308,7 +308,7 @@ h2 {
         background: rgba(80, 80, 80, 0.5);  
 }
 #name {
-        font-size: 8vw;
+        font-size: 5vw;
         color: white;
         font-family: 'Lucida Sans Unicode';
         font-variant: small-caps;
@@ -317,7 +317,7 @@ h2 {
         padding: 10px;   
 }
 #sub-text {
-        font-size: 3vw;
+        font-size: 2vw;
         height: auto;
         color: white;
         font-family: 'Lucida Sans Unicode';
@@ -330,7 +330,7 @@ h2 {
 }
 #description {
         color: white;
-        font-size: 30px;
+        font-size: 2vw;
         text-align: center;
         letter-spacing: 2px;
         padding: 50px;
@@ -372,10 +372,18 @@ body{
         background-repeat: no-repeat;
 }
 .footerBlock {
-
+        background: rgb(78, 78, 78);
+        padding: 50px;
+        display: flex;
+        justify-content: center;
 }
 .footer {
-
+        color: rgb(196, 196, 196);
+        font-weight: bold;
+        width: 50%;
+        text-align: center;
+        font-family: 'Segoe UI';
+        letter-spacing: 1px;
         
 }
 
