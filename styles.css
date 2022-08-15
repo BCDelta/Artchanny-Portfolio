@@ -71,7 +71,7 @@ a:hover {
         padding: 50px;
         color: white;
         font-family:'Courier New';
-        font-size: 25px;
+        font-size: 2.5vw;
 }
 .pageTitle {
         color: white;
@@ -83,7 +83,7 @@ h2 {
         color: white;
         font-family: 'Lucida Sans Unicode';
         letter-spacing: 2px;
-        font-size: 30px;
+        font-size: 3.5vw;
 }
 #instagram {
         background: rgba(143, 24, 113, 0.6);
@@ -93,7 +93,7 @@ h2 {
         box-shadow: 10px 10px rgb(36, 36, 36);
         font-family: 'Courier New';
         letter-spacing: 1px;
-        font-size: 20px;
+        font-size: 2.5vw;
 }
 #patreon {
         background: rgba(209, 99, 79, 0.8);
@@ -102,7 +102,7 @@ h2 {
         box-shadow: 10px 10px rgb(36, 36, 36);
         font-family: 'Courier New';
         letter-spacing: 1px;
-        font-size: 20px;
+        font-size: 2.5vw;
         text-align: left;
         height: auto;
 }
@@ -114,13 +114,11 @@ h2 {
         box-shadow: 10px 10px rgb(36, 36, 36);
         font-family: 'Courier New';
         letter-spacing: 1px;
-        font-size: 20px;
+        font-size: 2.5vw;
 }
-.logos {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        text-align: right;
+.logo {
+        height: 25%;
+        
 }
 #fiverr {
         background: rgba(49, 104, 70, 0.8);
@@ -130,7 +128,7 @@ h2 {
         box-shadow: 10px 10px rgb(36, 36, 36);
         font-family: 'Courier New';
         letter-spacing: 1px;
-        font-size: 20px;
+        font-size: 2.5vw;
 
 }
 /*************** Links Page *************************/
@@ -272,7 +270,7 @@ h2 {
         background: rgba(0, 0, 0, 0.5);
         border: 2px solid;
         padding: 20px;
-        font-size: 40px;
+        font-size: 4vw;
         text-align: center;
         letter-spacing: 10px;
         font-family:'Times New Roman';
@@ -284,6 +282,7 @@ h2 {
 }
 .artwork {
         height: 333px;
+        width: auto;
         padding: 30px;
 }
 .picture-set {
@@ -372,10 +371,19 @@ body{
         background-repeat: no-repeat;
 }
 .footerBlock {
-
+        background: rgb(78, 78, 78);
+        padding: 50px;
+        display: flex;
+        justify-content: center;
 }
 .footer {
-
+        color: rgb(196, 196, 196);
+        font-weight: bold;
+        width: 100%;
+        font-size: 2vw;
+        text-align: center;
+        font-family: 'Segoe UI';
+        letter-spacing: 1px;
         
 }
 
