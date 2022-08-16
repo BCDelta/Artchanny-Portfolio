@@ -29,7 +29,7 @@ a.links:link, a.links:visited {
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 1vw;
+        font-size: 2vw;
 }
 a.links:hover {
         background: rgba(73, 113, 150, 0.9);
