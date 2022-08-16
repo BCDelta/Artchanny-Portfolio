@@ -29,7 +29,7 @@ a.links:link, a.links:visited {
         text-align: center;
         text-decoration: none;
         display: inline-block;
-        font-size: 2vw;
+        font-size: 1vw;
 }
 a.links:hover {
         background: rgba(73, 113, 150, 0.9);
@@ -52,6 +52,7 @@ a:hover {
 .menu {
         display: inline;
         border-right: 2px solid rgb(77, 77, 77);
+        font-size: 2vw;
 }
 .spacer {
         margin: 20px;
@@ -77,7 +78,7 @@ a:hover {
         color: white;
         font-family: 'Lucida Sans Unicode';
         letter-spacing: 2px;
-        font-size: 5vw;       
+        font-size: 3vw;       
 }
 h2 {
         color: white;
@@ -93,7 +94,7 @@ h2 {
         box-shadow: 10px 10px rgb(36, 36, 36);
         font-family: 'Courier New';
         letter-spacing: 1px;
-        font-size: 2.5vw;
+        font-size: 2vw;
 }
 #patreon {
         background: rgba(209, 99, 79, 0.8);
@@ -102,7 +103,7 @@ h2 {
         box-shadow: 10px 10px rgb(36, 36, 36);
         font-family: 'Courier New';
         letter-spacing: 1px;
-        font-size: 2.5vw;
+        font-size: 2vw;
         text-align: left;
         height: auto;
 }
@@ -114,10 +115,13 @@ h2 {
         box-shadow: 10px 10px rgb(36, 36, 36);
         font-family: 'Courier New';
         letter-spacing: 1px;
-        font-size: 2.5vw;
+        font-size: 2vw;
 }
-.logo {
-        height: 25%;
+.logos {
+        width: 25%;
+        height: auto;
+        position: relative;
+        left: 75%;
         
 }
 #fiverr {
@@ -128,7 +132,7 @@ h2 {
         box-shadow: 10px 10px rgb(36, 36, 36);
         font-family: 'Courier New';
         letter-spacing: 1px;
-        font-size: 2.5vw;
+        font-size: 2vw;
 
 }
 /*************** Links Page *************************/
@@ -136,11 +140,11 @@ h2 {
 /*************** About Page *************************/
 #about {
         background: rgba(80, 80, 80, 0.9);
-        padding: 40px;
-        margin: 20px;
+        height: auto;
+        padding: 15px;
         text-align: center;
         letter-spacing: 2px;
-        font-size: 3vw;
+        font-size: 2.5vw;
         font-family: 'Times New Roman';
         color: white;
         border: 5px solid rgb(255, 255, 255);
@@ -162,6 +166,7 @@ h2 {
         margin: 0 auto;
         text-align: center;
         width:50%;
+        font-size: 1.5vw;
         height: auto;
         background: rgb(36, 36, 36);
         letter-spacing: 5px;
@@ -169,13 +174,16 @@ h2 {
         border: 5px solid rgb(255, 255, 255);
         border-radius: 10px;
         color: white;
-
 }
+#bio {
+        font-size: 1.5svw;
+}
+
 .description {
         padding: 25px;
         color: white;
         font-family: 'Courier New';
-        font-size: 22px;
+        font-size: 1.5vw;
 }
 /*************** About Page *************************/
 
@@ -188,7 +196,7 @@ h2 {
         height: 100%;
         text-align: center;
         letter-spacing: 2px;
-        font-size: 25px;
+        font-size: 2vw;
         font-family: 'Times New Roman';
         color: white;
 }
@@ -198,34 +206,34 @@ h2 {
 }
 .faqBlock {
         background: rgb(255, 255, 255);
-        margin: auto;
-        width: 75%;
-        height: 100%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
 }
 .question {
         position: relative;
-        left: 10px;
-        border: 5px solid rgb(224, 224, 224);
-        background-color: rgb(224, 224, 224);
-        box-shadow: 1vw 1vw rgba(0, 0, 0, 0.5);
-        border-radius:  30px 30px 30px 5px;
-        margin: 20px;
-        width: 50%;
-        padding: 20px;
-        font-size: 25px;
+        left: 5%;
+        
+        padding: 1.2%;
+        background-color: rgb(202, 202, 202);
+        border-radius:  15px 15px 0px 15px;
+        width: 35%;
+        height: auto;
+        font-size: 1.5vw;
         font-family: 'Helvetica';
 }
 .answer {
         position: relative;
-        left: 40%;
-        
-        border: 5px solid rgb(125, 206, 88);
+        left: 45%;
+
+        padding: 1.2%;
         background-color: rgb(125, 206, 88);
-        box-shadow: 1vw 1vw rgba(8, 70, 6, 0.7);
-        border-radius:  30px 30px 5px 30px;
+        border-radius:  15px 15px 0px 15px;
+
+
         width: 50%;
-        padding: 20px;
-        font-size: 25px;
+        height: auto;
+        font-size: 1.5vw;
         font-family: 'Helvetica';
 }
 
@@ -234,7 +242,7 @@ h2 {
 /*************** Gallery Page *************************/
 .showcase {
         background: rgb(19, 12, 24);
-        padding: 20px;
+        padding: 5%;
         height: auto;
         color: white;
 }
@@ -244,17 +252,20 @@ h2 {
         background-color: rgba(209, 99, 79, 0.8);
         width: 40%;
         height: auto;
-        font-size: auto;
-        padding: 50px;
+        font-size: 2.5vw;
+        padding-left: 2.5%;
+        padding-right: 25%;
+        padding-top: 2.5%;
+        padding-bottom: 2.5%;
 }
 #gallary-slogan {
         color: white;
         font-family: 'Lucida Sans Unicode';
         background-color: rgba(49, 49, 49, 0.4);
         width: auto;
-        padding: 40px;
+        padding: 5%;
         letter-spacing: 4px;
-        font-size: auto;
+        font-size: 2vw;
         text-align: right;
         margin-top: 120px;
 }
@@ -281,9 +292,9 @@ h2 {
         width: 50%;
 }
 .artwork {
-        height: 333px;
-        width: auto;
-        padding: 30px;
+        height: auto;
+        width: 25%;
+        padding: 0.5%;
 }
 .picture-set {
         display: block;
@@ -380,7 +391,7 @@ body{
         color: rgb(196, 196, 196);
         font-weight: bold;
         width: 100%;
-        font-size: 2vw;
+        font-size: 1.3vw;
         text-align: center;
         font-family: 'Segoe UI';
         letter-spacing: 1px;
